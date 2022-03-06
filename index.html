@@ -1,20 +1,25 @@
 <html>
   <head>
-    <title>Dice Roller</title>
+    <title>Color MIX</title>
   </head>
   <body>
-    <form action="multiply.php" method="POST">
+    <form action="color.php" method="POST">
 
-      RED <input type="checkbox" name="n" value="RED">
-      <br>
-      BLUE <input type="checkbox" name="n2" value="BLUE">
-      <br>
-    
+     <p>Please select a color</p>
+      Red <input type="radio" id="red" name="cl1" value="1">
+      Blue <input type="radio" id="blue" name="cl1" value="BLUE">
+      Green <input type="radio" id="green" name="cl1" value="GREEN">
+    <br><br>
+    <p>Please select another color</p>
+      Yellow <input type="radio" id="yellow" name="cl2" value="3">
+      Pink <input type="radio" id="pink" name="cl2" value="PINK">
+      Purple <input type="radio" id="purple" name="cl2" value="PURPLE">
+    <br><br>
       <input type="submit" name="a" value=" MIX ">
 
     </form>
     
-    <h2>Output</h2>
+    <h3>Output</h3>
     
   </body>
 </html>
